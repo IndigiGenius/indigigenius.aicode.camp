@@ -56,7 +56,7 @@ RUN mamba install --verbose --yes \
     'sympy' \
     'widgetsnbextension'\
     # install jupyter version of turtle mobilechelonian
-    # 'mobilechelonian' \
+    'mobilechelonian' \
     'xlrd' && \
     mamba clean --all -f -y && \
     fix-permissions "${CONDA_DIR}" && \
