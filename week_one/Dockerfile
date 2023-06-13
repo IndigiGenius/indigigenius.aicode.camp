@@ -1,7 +1,7 @@
 # Copyright (c) Jupyter Development Team.
 # Distributed under the terms of the Modified BSD License.
 ARG OWNER=jupyter
-ARG BASE_CONTAINER=$OWNER/minimal-notebook
+ARG BASE_CONTAINER=$OWNER/minimal-notebook:2022-07-11
 FROM $BASE_CONTAINER
 
 LABEL maintainer="Jupyter Project <jupyter@googlegroups.com>"
@@ -26,7 +26,7 @@ RUN apt-get update --yes && \
 USER ${NB_UID}
 
 # Install Python 3 packages
-RUN mamba install --quiet --yes \
+RUN mamba install --verbose --yes \
     'altair' \
     'beautifulsoup4' \
     'bokeh' \
@@ -56,7 +56,7 @@ RUN mamba install --quiet --yes \
     'sympy' \
     'widgetsnbextension'\
     # install jupyter version of turtle mobilechelonian
-    # 'mobilechelonian' \
+    'mobilechelonian' \
     'xlrd' && \
     mamba clean --all -f -y && \
     fix-permissions "${CONDA_DIR}" && \
