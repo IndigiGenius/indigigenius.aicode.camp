@@ -23,7 +23,7 @@ RUN apt-get update --yes && \
     ffmpeg && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
-USER ${NB_UID}
+# USER ${NB_UID}
 
 # Install Python 3 packages
 RUN mamba install --verbose --yes \
@@ -56,7 +56,7 @@ RUN mamba install --verbose --yes \
     'sympy' \
     'widgetsnbextension'\
     # install jupyter version of turtle mobilechelonian
-    'mobilechelonian' \
+    # 'mobilechelonian' \
     'xlrd' && \
     mamba clean --all -f -y && \
     fix-permissions "${CONDA_DIR}" && \
