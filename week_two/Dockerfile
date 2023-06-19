@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/pytorch:23.05-py3
+FROM nvcr.io/nvidia/pytorch:22.04-py3
 
 RUN pip install onnxruntime-gpu
 RUN conda install h5py
