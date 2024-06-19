@@ -2,14 +2,12 @@
 
 ## 1. Build docker image
 ```
-docker build -t jupyter/my_fastai_notebook .
+docker build -t jupyter/deep_learning .
 ```
 
 ## 2. Run your image
 ```
-docker run --shm-size=4g -it --rm -p 8888:8888 -v ${pwd}\data:\data jupyter/my_fastai_notebook
-
-docker run --gpus all --memory=12g --cpus=0.75 --shm-size=12g -it -p 8888:8888 -v ${pwd}\data:/workspace/data/ -v ${pwd}\models:/workspace/models/ jupyter/my_fastai_notebook
+docker run --gpus all --memory=12g --cpus=0.75 --shm-size=12g -it -p 8888:8888 -v ${pwd}\data:/workspace/data/ -v ${pwd}\models:/workspace/models/ jupyter/deep_learning
 
 ```
 
