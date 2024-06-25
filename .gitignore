@@ -1,2 +1,5 @@
 
 week_two/data/*
+week_two/images/*
+.*
+!/.gitignore
