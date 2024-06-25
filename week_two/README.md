@@ -1,21 +1,24 @@
 # Setup:
 
-## 1. Go to week_two folder
-
-Create a folder called "data"
-
-## 2. Add your data
-
-Load your the training data into the *data* folder. This data will show up in Jupyter
-
-## 3. Build docker image
+## 1. Build docker image
 ```
-docker build . -t jupyter/week_two
+docker build -t jupyter/deep_learning .
 ```
 
-## 4. Run your image
+## 2. Run your image
 ```
-docker run --gpus all --memory=12g --cpus=0.75 --shm-size=12g -it -v ${pwd}\data:/workspace/data/ -v ${pwd}\models:/workspace/models/ -p 8888:8888 jupyter/week_two
+
+docker run --gpus all --memory=12g --cpus=0.75 --shm-size=12g -it -p 8888:8888 -v ${pwd}\data:/workspace/data/ -v ${pwd}\models:/workspace/models/ -v ${pwd}\notebooks:/workspace/notebooks/ jupyter/deep_learning
+
+
+DO NOT run this command unless you have created a fork of your own repository
+docker run --gpus all --memory=12g --cpus=0.75 --shm-size=12g -it -p 8888:8888 -v ${pwd}\data:/workspace/data/ -v ${pwd}\models:/workspace/models/ -v ${pwd}\notebooks:/workspace/notebooks/ jupyter/deep_learning
+
 ```
 
 *Note*: this assumes a windows file system, for **nix *flip the slash from '\data' to '/data' in the -v parameter*
+
+## 3. Monitor your GPU usage in the terminal (use a separate terminal than where you started the container)
+```
+nvidia-smi
+```

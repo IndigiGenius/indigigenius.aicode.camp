@@ -1,2 +1,3 @@
-./data
-./model
+
+week_two/data/*
+week_two.models/*
