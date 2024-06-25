@@ -1,5 +1,5 @@
-# Use a base image that supports Ubuntu 22.04
-FROM ubuntu:22.04
+# Use a base image that supports CUDA and cuDNN
+FROM nvidia/cuda:11.3.1-cudnn8-runtime-ubuntu20.04
 
 # Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive
