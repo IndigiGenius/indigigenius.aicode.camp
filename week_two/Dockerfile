@@ -22,6 +22,8 @@ ENV PYTHONUNBUFFERED=1 \
 
 # Install Jupyter and fast.ai
 RUN pip3 install --no-cache-dir --upgrade pip \
+    && pip3 install --no-cache-dir nbdev \
+    && pip3 install --no-cache-dir gradio \
     && pip3 install --no-cache-dir jupyter \
     && pip3 install --no-cache-dir fastai
 
