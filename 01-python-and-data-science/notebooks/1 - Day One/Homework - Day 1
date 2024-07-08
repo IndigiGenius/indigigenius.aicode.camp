@@ -1,0 +1,11 @@
+# Design your own turtle design!
+
+You must give your turtle at least 75 commands, and try to make something cool! These commands can be placed in a loop or done however you'd like, but the turtle MUST RECEIVE at least 75 of them.
+
+For tomorrow, you must have a jupyter notebook with your answer.
+
+For this exercise, stick to the following commands.
+
+t.forward(X): Move forward X units
+t.right(X): Turn right X degrees
+t.left(X): Turn left X degrees

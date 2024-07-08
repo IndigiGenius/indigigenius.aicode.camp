@@ -1,0 +1,14 @@
+# Design your own turtle design!
+
+You must give your turtle at least 10 commands, and try to make something cool!
+
+For tomorrow, you must have (on SEPARATE sheets of paper):
+1. Your instructions for your turtle (at least 10)
+2. The drawing of what you think your instructions will make your turtle do!
+
+## Reminder
+Your turtle can receive the following commands:
+
+Forward(X): Move forward X units
+Right(X): Turn right X degrees
+Left(X): Turn left X degrees
