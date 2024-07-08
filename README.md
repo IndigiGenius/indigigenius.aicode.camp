@@ -1,5 +1,5 @@
-# lakota.aicode.camp
-Lakota AI Code Camp education repository.
+# indigigenius.aicode.camp
+IndigiGenius AI Code Camp education repository.
 
 ## Get Started
 
