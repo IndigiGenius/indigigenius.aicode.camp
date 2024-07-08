@@ -1,5 +1,6 @@
 
-week_two/data/*
-week_two/images/*
+02-deep-learning/data/*
+02-deep-learning/images/*
+02-deep-learning/models/*
 .*
 !/.gitignore
