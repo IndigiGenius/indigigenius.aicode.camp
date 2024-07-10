@@ -2,7 +2,7 @@ import turtle
 
 class Turtle_Extended(turtle.Turtle):
     def __init__(self, shape='classic', undobuffersize=1000, visible=True):
-        super().__init__(shape, undobuffersize, visible)
+        super().__init__(shape=shape, undobuffersize=undobuffersize, visible=visible)
 
     def square(self, center_x=0, center_y=0, side_length=20):
         self.penup()
