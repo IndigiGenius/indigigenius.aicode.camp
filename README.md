@@ -31,8 +31,8 @@ The approach of this curriculum was created using a backwards planning process, 
 |------------|---------------------------------------|-----------------------|-------------------|------------------|----------------------------|
 | Module 0   | Installs & Intro to Jupyter Notebooks | Variables             | Lists             | OOP              | Data Science Final Project |
 | Module 1   | Intro to Programming                  | Data Types            | Dictionaries      | Extending Turtle | Data Science Final Project |
-| Module 3   | Intro to Turtle                       | Loops & Turtle        | Functions         | Extending Turtle | Data Science Final Project |
-| Module 4   | Intro to Artificial Intelligence      | Conditionals & Turtle | Custom Functions  | Pandas           | Data Science Presentations |
+| Module 2   | Intro to Turtle                       | Loops & Turtle        | Functions         | Extending Turtle | Data Science Final Project |
+| Module 3   | Intro to Artificial Intelligence      | Conditionals & Turtle | Custom Functions  | Pandas           | Data Science Presentations |
 | Extensions | Robot Game                            |                       | Turtle Challenges | Hangman          |                            |
 | Evening    |                                       | Language Class        |                   | Language Class   |                            |
 
