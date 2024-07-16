@@ -41,7 +41,7 @@ The approach of this curriculum was created using a backwards planning process, 
 |------------|--------------------------------|-------------------|-------------------|----------------------------------|--------------------------------|
 | Module 0   | Installs                       | Collecting Data   | Collecting Data   | Accessing Data                   | Computer Vision Model Training |
 | Module 1   | Installs                       | Collecting Data   | Collecting Data   | DataBlocks & DataLoaders         | Computer Vision Model Training |
-| Module 2   | Is it a Zintkala?              | Organizing Data 1 | Organizing Data 2 | Learner, Fine Tuning, & Cleaning | Computer Vision Model Training |
+| Module 2   | Is it a Zintkala?              | Organizing Data 1 | Organizing Data 2 | Learner, Fine Tuning, & Cleaning | What is a CNN?                 |
 | Module 3   | Data Collection Best Practices | Organizing Data 1 | Preparing Data    | Learner, Fine Tuning, & Cleaning | Computer Vision Model Training |
 | Extensions |                                |                   |                   |                                  |                                |
 | Evening    |                                | Language Class    |                   | Language Class                   |                                |
