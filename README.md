@@ -19,7 +19,7 @@ The approach of this curriculum was created using a backwards planning process, 
 1. Learners leverage the computer vision model they created to build a web-based Gradio application hosted on Hugging Face to deploy a tool that educates and disseminates cultural knowledge.
 
 ## Getting Started
-1. Create a fork of this repository
+1. [Create a fork of this repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
 1. Clone the fork of the repository in your GitHub.com repo to run locally (we suggest you use GitHub Desktop)
 1. For each unit, follow the instructions in the associated Readme.md file to appropriately run the Jupyter Notebook, or Docker container, environment 
 1. Follow the Readme.md for each unit
@@ -41,9 +41,9 @@ The approach of this curriculum was created using a backwards planning process, 
 |------------|--------------------------------|-------------------|-------------------|----------------------------------|--------------------------------|
 | Module 0   | Installs                       | Collecting Data   | Collecting Data   | Accessing Data                   | Computer Vision Model Training |
 | Module 1   | Installs                       | Collecting Data   | Collecting Data   | DataBlocks & DataLoaders         | Computer Vision Model Training |
-| Module 2   | Is it a Zintkala?              | Organizing Data 1 | Organizing Data 2 | Learner, Fine Tuning, & Cleaning | Computer Vision Model Training |
+| Module 2   | Is it a Zintkala?              | Organizing Data 1 | Organizing Data 2 | Learner, Fine Tuning, & Cleaning | What is a CNN?                 |
 | Module 3   | Data Collection Best Practices | Organizing Data 1 | Preparing Data    | Learner, Fine Tuning, & Cleaning | Computer Vision Model Training |
-| Extensions |                                |                   |                   |                                  |                                |
+| Extensions |                                |                   |                   | Cleaning Student Data            |                                |
 | Evening    |                                | Language Class    |                   | Language Class                   |                                |
 
 ### Week 3 - Model Driven Web Applications
