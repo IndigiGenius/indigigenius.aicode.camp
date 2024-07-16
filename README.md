@@ -1,6 +1,10 @@
 # indigigenius.aicode.camp
 IndigiGenius AI Code Camp curriculum repository.
 
+## About IndigiGenius
+[https://www.indigigenius.org](https://www.indigigenius.org)  
+IndigiGenius is an Indigenous-led nonprofit working to increase the representation of Indigenous people in computer science through culturally informed curriculum, programs, and initiatives.
+
 ## About The Curriculum
 
 The curriculum incorporated into this repository is derived from activities and lessons learned from the Lakota AI Code Camp (LAICC, [https://lakota.aicode.camp](https://lakota.aicode.camp)). The LAICC began in the summer of 2022 and has been annually hosted at the Black Hills State University campus.
