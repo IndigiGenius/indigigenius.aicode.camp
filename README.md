@@ -1,7 +1,7 @@
 # indigigenius.aicode.camp
 IndigiGenius AI Code Camp education repository.
 
-## Get Started
+## About The Curriculum
 
 This repository is split into units for supporting students in creating an applications powered by artificial intelligence that has been developed using the Python programming language.
 
@@ -9,7 +9,40 @@ The approach of this curriculum was created using a backwards planning process, 
 
 ## The Process
 1. Learners work with activities to develop competency with they Python programming language and jupyter notebooks.
-2. Learners use jupyter notebooks and the Fast.AI API to created a computer vision deep learning model
-3. Learners leverage the computer vision model they created to build a web-based Gradio application hosted on Hugging Face to deploy a tool that educates and disseminates cultural knowledge.
+1. Learners use Docker containers, jupyter notebooks, and the fastai librari to created a computer vision deep learning model.
+1. Learners leverage the computer vision model they created to build a web-based Gradio application hosted on Hugging Face to deploy a tool that educates and disseminates cultural knowledge.
 
-Then follow the Readme.md 
+## Getting Started
+1. Create a fork of this repository
+1. Clone the fork of the repository associated to run locally (we suggest you use GitHub Desktop)
+1. For each unit, follow the instructions in the associated Readme.md file to appropriately run the Jupyter Notebook environment 
+Then follow the Readme.md for that unit
+
+## Schedule
+
+### Week 1 - Python & Data Science
+| Time/Day   | Monday (0)                            | Tuesday (1)           | Wednesday (2)     | Thursday (3)     | Friday (4)                 |
+|------------|---------------------------------------|-----------------------|-------------------|------------------|----------------------------|
+| Module 0   | Installs & Intro to Jupyter Notebooks | Variables             | Lists             | OOP              | Data Science Final Project |
+| Module 1   | Intro to Programming                  | Data Types            | Dictionaries      | Extending Turtle | Data Science Final Project |
+| Module 3   | Intro to Turtle                       | Loops & Turtle        | Functions         | Extending Turtle | Data Science Final Project |
+| Module 4   | Intro to Artificial Intelligence      | Conditionals & Turtle | Custom Functions  | Pandas           | Data Science Presentations |
+| Extensions | Robot Game                            |                       | Turtle Challenges | Hangman          |
+
+### Week 2 - Deep Learning - Computer Vision
+| Time/Day   | Monday       | Tuesday      | Wednesday    | Thursday     | Friday       |
+|------------|--------------|--------------|--------------|--------------|--------------|
+| Module 0   |              |              |              |              |              |
+| Module 1   |              |              |              |              |              |
+| Module 2   |              |              |              |              |              |
+| Module 3   |              |              |              |              |              |
+| Extensions |
+
+### Week 3 - Model Driven Web Applications
+| Time/Day   | Monday       | Tuesday      | Wednesday    | Thursday     | Friday       |
+|------------|--------------|--------------|--------------|--------------|--------------|
+| Module 0   |              |              |              |              |              |
+| Module 1   |              |              |              |              |              |
+| Module 2   |              |              |              |              |              |
+| Module 3   |              |              |              |              |              |
+| Extensions |
