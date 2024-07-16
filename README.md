@@ -60,7 +60,7 @@ The approach of this curriculum was created using a backwards planning process, 
     - **What went well?**
     - **What didn't go well?**
     - **What would you change or improve?**
-- ***We highly suggest that these 'stand up' questions be asked in the Indigenous language***
+- ***We highly suggest that these 'stand up' questions be asked in the Indigenous language of the student participants***
 
 ## About the Language Classes
 The curriculum is derived from activities leveraged by the Lakota AI Code Camp (LAICC, [https://lakota.aicode.camp](https://lakota.aicode.camp)). During the LAICC students are provided instruction in Lakota twice a week during the evenings. These classes are typically grounded in developing conversational skills in the students' Indigenous language, as well as to prepare them to introduce themselves in that Indigenous language during the Closing event if they choose to do so.
