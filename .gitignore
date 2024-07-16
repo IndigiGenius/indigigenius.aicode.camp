@@ -2,5 +2,6 @@
 02-deep-learning/data/*
 02-deep-learning/images/*
 02-deep-learning/models/*
+**/models/
 .*
 !/.gitignore
