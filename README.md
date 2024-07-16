@@ -30,12 +30,12 @@ Then follow the Readme.md for that unit
 | Extensions | Robot Game                            |                       | Turtle Challenges | Hangman          |
 
 ### Week 2 - Deep Learning - Computer Vision
-| Time/Day   | Monday       | Tuesday      | Wednesday    | Thursday     | Friday       |
-|------------|--------------|--------------|--------------|--------------|--------------|
-| Module 0   |              |              |              |              |              |
-| Module 1   |              |              |              |              |              |
-| Module 2   |              |              |              |              |              |
-| Module 3   |              |              |              |              |              |
+| Time/Day   | Monday                         | Tuesday           | Wednesday         | Thursday                         | Friday                         |
+|------------|--------------------------------|-------------------|-------------------|----------------------------------|--------------------------------|
+| Module 0   | Installs                       | Collecting Data   | Collecting Data   | Accessing Data                   | Computer Vision Model Training |
+| Module 1   | Installs                       | Collecting Data   | Collecting Data   | DataBlocks & DataLoaders         | Computer Vision Model Training |
+| Module 2   | Is it a Zintkala?              | Organizing Data 1 | Organizing Data 2 | Learner, Fine Tuning, & Cleaning | Computer Vision Model Training |
+| Module 3   | Data Collection Best Practices | Organizing Data 1 | Preparing Data    | Learner, Fine Tuning, & Cleaning | Computer Vision Model Training |
 | Extensions |
 
 ### Week 3 - Model Driven Web Applications
