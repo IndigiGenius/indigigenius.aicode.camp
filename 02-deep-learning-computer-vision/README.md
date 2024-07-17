@@ -5,13 +5,9 @@
 docker build -t jupyter/deep_learning .
 ```
 
-## 2. Run your image
+## 2. Run your image (this run command is intended for forked repos)
 ```
 
-docker run --gpus all --memory=12g --cpus=0.75 --shm-size=12g -it -p 8888:8888 -v ${pwd}\data:/workspace/data/ -v ${pwd}\models:/workspace/models/ jupyter/deep_learning
-
-
-DO NOT run this command unless you have created a fork of your own repository
 docker run --gpus all --memory=12g --cpus=0.75 --shm-size=12g -it -p 8888:8888 -v ${pwd}\data:/workspace/data/ -v ${pwd}\models:/workspace/models/ -v ${pwd}\notebooks:/workspace/notebooks/ jupyter/deep_learning
 
 ```
