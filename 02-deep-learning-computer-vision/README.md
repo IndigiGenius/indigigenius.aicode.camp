@@ -1,3 +1,7 @@
+# About
+
+This unit was created to leverage the fast.ai library to support learners in creating a computer vision model in a short amount of time. Many of the lessons are based on the Fast.AI Practical Deep Learning for Coders curriculum, so please visit [https://course.fast.ai/](https://course.fast.ai/) to learn more.
+
 # Setup:
 
 ## 1. Build docker image
