@@ -6,7 +6,6 @@ window.setup(width=800, height=800)
 t = turtle.Turtle()
 
 # Challenge 1: Squares in a Grid
-
 # YOUR CODE HERE
 
 
